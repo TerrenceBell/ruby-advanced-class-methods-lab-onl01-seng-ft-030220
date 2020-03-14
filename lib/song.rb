@@ -19,9 +19,10 @@ song = self.new
 song.name = title
 song
 end
-def self.create_by_name()
-  song = self.title 
+def self.create_by_name(title)
+  song = self.new 
+  song.name = title 
   @@all << song 
-  song 
+  song
 end 
 end
