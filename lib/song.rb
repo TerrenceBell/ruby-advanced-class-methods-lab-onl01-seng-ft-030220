@@ -37,6 +37,6 @@ def self.find_or_create_by_name(title)
 end
 end
 def self.alphabetical
-  @@all.sort 
+  @@all.sort_by
 end
 end
