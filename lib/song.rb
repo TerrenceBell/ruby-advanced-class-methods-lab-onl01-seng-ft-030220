@@ -54,6 +54,7 @@ def self,create_from_filename(filename)
     song.artist_name = result.artist_name
     song
   end
+  
   def self.destroy_all
     self.all.clear
 end 
