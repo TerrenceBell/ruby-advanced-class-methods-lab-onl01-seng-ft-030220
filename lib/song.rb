@@ -40,5 +40,5 @@ def self.alphabetical
   @@all.sort_by{|song| song.name}
 end
 def self.new_from_filename(artist - song.mp3)
-  
+  data = 
 end
