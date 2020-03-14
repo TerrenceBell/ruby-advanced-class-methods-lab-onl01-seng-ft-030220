@@ -19,4 +19,8 @@ song = self.new
 song.name = title
 song
 end
+def self.create_by_name
+  song = Song.title 
+  @@all << song 
+  song 
 end
